@@ -115,6 +115,7 @@
     <element xsi:type="archimate:AccessRelationship" id="id-5e13b8f86de04cd7afee6c091017d602" source="id-044e7babdb5f4f569dd5ba4634b4dbf8" target="id-e8ce5eacec854d77a5129a0512f515e0"/>
     <element xsi:type="archimate:AccessRelationship" id="id-f6d278a8258540818edc521c7173541d" source="id-e7aa121aca914a7195d3894869a8d6f9" target="id-e8ce5eacec854d77a5129a0512f515e0"/>
     <element xsi:type="archimate:AccessRelationship" id="id-2ce955da6275446ca3deaaee7ad64513" source="id-e7aa121aca914a7195d3894869a8d6f9" target="id-ec1c618dbbe74b19b5e6c98aae90ffa1"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-ba24ed0afbc7478aacbf6f5af599b70b" source="id-ec1c618dbbe74b19b5e6c98aae90ffa1" target="id-8eb5ec4a62aa4f758a889419308788d8"/>
   </folder>
   <folder name="Views" id="id-49d50edc7a364c98a72fdecbd5da757b" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-da323915e0194da189fef328180bcc44">
@@ -285,7 +286,7 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-5883ab5ff8c24a6887b71193fe8c9a01" source="id-5e86d003ad804ecfa46d8274db7b99e7" target="id-719c3bcb89c14c73b455ca99cdac11b7" archimateRelationship="id-4a61f5ba2d13470cb9c16ada02331e04"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-3e253e54b2d84cc5857a1464adaa4106" source="id-5e86d003ad804ecfa46d8274db7b99e7" target="id-0a3c3c54695c4f6f820c4590830b6dfe" archimateRelationship="id-5e13b8f86de04cd7afee6c091017d602"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-ba6e765d7f5d4ddbbc3ca653163f0dcd" archimateElement="id-8eb5ec4a62aa4f758a889419308788d8">
+      <child xsi:type="archimate:DiagramObject" id="id-ba6e765d7f5d4ddbbc3ca653163f0dcd" targetConnections="id-3bfa4225463345f99f457b5cc786a974" archimateElement="id-8eb5ec4a62aa4f758a889419308788d8">
         <bounds x="24" y="960" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-1b787e26f94a498b9dd0182d55f6d443" source="id-ba6e765d7f5d4ddbbc3ca653163f0dcd" target="id-901eeabfa1fa4f3880a54d1c190d504c" archimateRelationship="id-e431a18074ee4840a38e3f0508e7bdd7"/>
       </child>
@@ -389,6 +390,9 @@ Fica só associado à empresa?</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-892c8ad8ee6a4aa8971fc4dc12090eec" targetConnections="id-3569124e33e94db59151e96644eadb53" archimateElement="id-ec1c618dbbe74b19b5e6c98aae90ffa1">
         <bounds x="168" y="780" width="98" height="26"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-3bfa4225463345f99f457b5cc786a974" source="id-892c8ad8ee6a4aa8971fc4dc12090eec" target="id-ba6e765d7f5d4ddbbc3ca653163f0dcd" archimateRelationship="id-ba24ed0afbc7478aacbf6f5af599b70b">
+          <bendpoint startX="-1" startY="191" endX="132" endY="-3"/>
+        </sourceConnection>
       </child>
     </element>
   </folder>

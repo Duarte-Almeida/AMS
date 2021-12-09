@@ -230,7 +230,7 @@
         </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="id-e7bbe87a37f54aeba7f0e79f92e73372" source="id-a7b11d50e4ad46d88def8563fe9715fa" target="id-ee9af2a43b9c4b06ade02dea53fd29c9" archimateRelationship="id-e6daf0728d2f419591a9d9276141959a"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-296415b689ba489e819bb866bad7df25" source="id-a7b11d50e4ad46d88def8563fe9715fa" target="id-cb732a4cfe07468c959052fa373eec37" archimateRelationship="id-cbf8bd0dfc854eb2a7316c57f08d5677">
-          <bendpoint startX="-126" startY="-1" endX="7" endY="186"/>
+          <bendpoint startX="-101" endX="32" endY="187"/>
         </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-26613a6986da417dbff60e67eab7aab5" targetConnections="id-797b8b08775141049860f615567ebe5e id-b7037818ba0a4fcf826d4749630eebeb" archimateElement="id-16fa310af01f430492ab799f25e350da">
@@ -285,28 +285,21 @@
         <bounds x="639" y="876" width="106" height="43"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-5883ab5ff8c24a6887b71193fe8c9a01" source="id-5e86d003ad804ecfa46d8274db7b99e7" target="id-719c3bcb89c14c73b455ca99cdac11b7" archimateRelationship="id-4a61f5ba2d13470cb9c16ada02331e04"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-3e253e54b2d84cc5857a1464adaa4106" source="id-5e86d003ad804ecfa46d8274db7b99e7" target="id-0a3c3c54695c4f6f820c4590830b6dfe" archimateRelationship="id-5e13b8f86de04cd7afee6c091017d602"/>
+        <sourceConnection id="id-b01fa66ee30248c7860edcd43592f281" source="id-5e86d003ad804ecfa46d8274db7b99e7" target="id-77105b17ed3d4e8bbb2a8b1249497a15"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-ba6e765d7f5d4ddbbc3ca653163f0dcd" targetConnections="id-3bfa4225463345f99f457b5cc786a974" archimateElement="id-8eb5ec4a62aa4f758a889419308788d8">
         <bounds x="24" y="960" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-1b787e26f94a498b9dd0182d55f6d443" source="id-ba6e765d7f5d4ddbbc3ca653163f0dcd" target="id-901eeabfa1fa4f3880a54d1c190d504c" archimateRelationship="id-e431a18074ee4840a38e3f0508e7bdd7"/>
       </child>
       <child xsi:type="archimate:Note" id="id-f227e30d7bb34b55bb36474f664b0be0" textAlignment="1" fillColor="#f6d32d">
-        <bounds x="995" y="864" width="174" height="85"/>
+        <bounds x="1176" y="876" width="174" height="85"/>
         <content>TODO: 
 Último parágrafo
 Capítulo das intervenções</content>
       </child>
-      <child xsi:type="archimate:Note" id="id-6b5150a5acc64a8e955a84f424588fad" textAlignment="1">
-        <bounds x="763" y="864" width="185" height="97"/>
-        <content>Entidades bem representadas? Não se consegue perceber um caralho pelos slides. O HPC está como device nos satélites tho.</content>
-      </child>
       <child xsi:type="archimate:Note" id="id-e7cd4ecb31214c22a268b12d6f951a0b" textAlignment="1">
         <bounds x="887" y="55" width="185" height="44"/>
         <content>Check nas composições vs agregações no final</content>
-      </child>
-      <child xsi:type="archimate:Note" id="id-4b00e8555fc84abc87702088dfa845a3" textAlignment="1">
-        <bounds x="763" y="972" width="185" height="72"/>
-        <content>o &quot;tem&quot; uma db não é representável (só dá o serve). Pensar noutra representação da DB? Usar interfaces ou assim? DB como artefacto (slides)?</content>
       </child>
       <child xsi:type="archimate:Note" id="id-a117fbdbfa85495b9cd5cb7a3881d2f9" textAlignment="1" fillColor="#f6d32d">
         <bounds x="300" y="-5" width="185" height="61"/>
@@ -330,7 +323,7 @@ Fica só associado à empresa?</content>
         <sourceConnection xsi:type="archimate:Connection" id="id-d2b87e8b41054a9e8a7d352ff25b5ac7" source="id-97abe069ad194df49aa0b866737a3e1e" target="id-5e52df17035a4e08ad503264445332d2" archimateRelationship="id-ed8a1b60c09141f5812fa6c0b6f5e5bc">
           <bendpoint startY="-51" endX="76" endY="114"/>
           <bendpoint startY="-75" endX="76" endY="90"/>
-          <bendpoint startX="-48" startY="-75" endX="28" endY="90"/>
+          <bendpoint startX="-60" startY="-75" endX="16" endY="90"/>
         </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="id-a082658ee4d24426af9299012e0d16fe" source="id-97abe069ad194df49aa0b866737a3e1e" target="id-ee9af2a43b9c4b06ade02dea53fd29c9" archimateRelationship="id-808521ccfb8e4f339b801cee433f6602">
           <bendpoint startY="-75" endX="184" endY="162"/>
@@ -338,17 +331,17 @@ Fica só associado à empresa?</content>
         </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="id-7a8b737c83d6482f85aae740781e005c" source="id-97abe069ad194df49aa0b866737a3e1e" target="id-cb732a4cfe07468c959052fa373eec37" archimateRelationship="id-3062c20567e349f184e9ae27c5fa7243">
           <bendpoint startY="-75" endX="295" endY="162"/>
-          <bendpoint startX="-300" startY="-75" endX="-5" endY="162"/>
+          <bendpoint startX="-288" startY="-74" endX="8" endY="163"/>
         </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="id-b7037818ba0a4fcf826d4749630eebeb" source="id-97abe069ad194df49aa0b866737a3e1e" target="id-26613a6986da417dbff60e67eab7aab5" archimateRelationship="id-71e59f524650441bb26c8e561ec567ab">
-          <bendpoint startY="-75" endX="1020" endY="57"/>
+          <bendpoint startY="-75" endX="1068" endY="57"/>
           <bendpoint startX="-276" startY="-75" endX="744" endY="57"/>
           <bendpoint startX="-516" startY="-75" endX="504" endY="57"/>
           <bendpoint startX="-1020" startY="-75" endY="57"/>
         </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-d0255fdd54cd4e6bb8acc618a51ecb8a" archimateElement="id-ee84947bd1814af58d1ce40fab930ac6">
-        <bounds x="389" y="960" width="120" height="55"/>
+        <bounds x="408" y="960" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-1b90aea1c9c9448191ab83ebea16d38c" source="id-d0255fdd54cd4e6bb8acc618a51ecb8a" target="id-2858fc95811144c898e2929b3de4f8e7" archimateRelationship="id-5df57da84f9c4b80baa1631a0501419a"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-a456160f03d84c6eb4451dd72cd158db" source="id-d0255fdd54cd4e6bb8acc618a51ecb8a" target="id-02c6bbaa04024c6ba5d713a53d085739" archimateRelationship="id-2df6ad5c323142cdac0262f895355c32"/>
       </child>
@@ -357,7 +350,7 @@ Fica só associado à empresa?</content>
         <sourceConnection xsi:type="archimate:Connection" id="id-ac326a06a3b148c7ae323b71109a478e" source="id-2858fc95811144c898e2929b3de4f8e7" target="id-02c6bbaa04024c6ba5d713a53d085739" archimateRelationship="id-e9ad19de9b1c4e5981c3958f12a27f32"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-02c6bbaa04024c6ba5d713a53d085739" targetConnections="id-a456160f03d84c6eb4451dd72cd158db id-bf89bd80286948b2ae83de93ea50c7b6 id-ac326a06a3b148c7ae323b71109a478e" archimateElement="id-d1282eb520034b5e805c68c8d143ac4a">
-        <bounds x="252" y="886" width="91" height="23"/>
+        <bounds x="240" y="886" width="103" height="23"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-88333da03e35441981b3500c123a25f4" source="id-02c6bbaa04024c6ba5d713a53d085739" target="id-719c3bcb89c14c73b455ca99cdac11b7" archimateRelationship="id-36008c7d94db427baa0c7b8170150477">
           <bendpoint startX="13" startY="-81" endX="-324" endY="81"/>
           <bendpoint startX="3" startY="-165" endX="-312" endY="-3"/>
@@ -367,17 +360,12 @@ Fica só associado à empresa?</content>
         <bounds x="250" y="960" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-bf89bd80286948b2ae83de93ea50c7b6" source="id-24165b7e3eb24619ad8cc1772617f01e" target="id-02c6bbaa04024c6ba5d713a53d085739" archimateRelationship="id-97840fb267a448e98e412ff25ad79ffa"/>
       </child>
-      <child xsi:type="archimate:Note" id="id-10178d446585474b922f8672b9b6d88b" textAlignment="1">
-        <bounds x="218" y="535" width="159" height="90"/>
-        <content>Assumimos que os dados providenciados pela appCTR são comunicados à appMNG pela appQUE
-</content>
-      </child>
       <child xsi:type="archimate:Note" id="id-d960abca78274d848727810fba71279e" textAlignment="1" fillColor="#ff4aed">
-        <bounds x="168" y="700" width="79" height="44"/>
+        <bounds x="300" y="643" width="115" height="66"/>
         <content>appQUE interface da maquina ou da appCTR?</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-901eeabfa1fa4f3880a54d1c190d504c" targetConnections="id-1b787e26f94a498b9dd0182d55f6d443" archimateElement="id-f6835fab4c9143e8b155f16d7cf5396f">
-        <bounds x="24" y="887" width="120" height="21"/>
+        <bounds x="24" y="887" width="120" height="22"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-24ba8d5856c6478cafbc25a31604ed83" source="id-901eeabfa1fa4f3880a54d1c190d504c" target="id-eafea8e95bdb4d10bafa9fd981c5337b" archimateRelationship="id-3394479e25784123b942c4069845006d"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-eafea8e95bdb4d10bafa9fd981c5337b" targetConnections="id-24ba8d5856c6478cafbc25a31604ed83" archimateElement="id-e7aa121aca914a7195d3894869a8d6f9">
@@ -387,12 +375,25 @@ Fica só associado à empresa?</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-0a3c3c54695c4f6f820c4590830b6dfe" targetConnections="id-3e253e54b2d84cc5857a1464adaa4106 id-ef9e75471714481fa63d7b332e84719a" archimateElement="id-e8ce5eacec854d77a5129a0512f515e0">
         <bounds x="671" y="805" width="94" height="36"/>
+        <sourceConnection id="id-f0bdad5d5c2b4edc97129b122d2b4099" source="id-0a3c3c54695c4f6f820c4590830b6dfe" target="id-77105b17ed3d4e8bbb2a8b1249497a15"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-892c8ad8ee6a4aa8971fc4dc12090eec" targetConnections="id-3569124e33e94db59151e96644eadb53" archimateElement="id-ec1c618dbbe74b19b5e6c98aae90ffa1">
         <bounds x="168" y="780" width="98" height="26"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-3bfa4225463345f99f457b5cc786a974" source="id-892c8ad8ee6a4aa8971fc4dc12090eec" target="id-ba6e765d7f5d4ddbbc3ca653163f0dcd" archimateRelationship="id-ba24ed0afbc7478aacbf6f5af599b70b">
           <bendpoint startX="-1" startY="191" endX="132" endY="-3"/>
         </sourceConnection>
+      </child>
+      <child xsi:type="archimate:Note" id="id-cad4c4575eac45e4ad7814db1cf1619e" textAlignment="1" fillColor="#62a0ea">
+        <bounds x="389" y="1014" width="185" height="80"/>
+        <content>Máquina não se liga a mais nada? Nem à manutenção delas?</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-77105b17ed3d4e8bbb2a8b1249497a15" targetConnections="id-f0bdad5d5c2b4edc97129b122d2b4099 id-b01fa66ee30248c7860edcd43592f281" textAlignment="1" fillColor="#62a0ea">
+        <bounds x="857" y="904" width="185" height="80"/>
+        <content>Os backups feitos da appMNG são carregados para o servidor JBoss acho eu, não para a base de dados</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-70843e5a5ed149f58c2931e4a5193b48" textAlignment="1" fillColor="#62a0ea">
+        <bounds x="24" y="701" width="181" height="56"/>
+        <content>É necessário representar o artefacto Backup? Se sim, a linha de &quot;access&quot; é a certa?</content>
       </child>
     </element>
   </folder>
