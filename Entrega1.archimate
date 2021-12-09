@@ -29,6 +29,7 @@
     <element xsi:type="archimate:BusinessActor" name="Fornecedor" id="id-fed174c7c3fd476d94c01e6fd16838b6"/>
     <element xsi:type="archimate:BusinessActor" name="Máquina" id="id-8065ab9819bc49aea9ee48be9139a9a1"/>
     <element xsi:type="archimate:BusinessProcess" name="Envio de dados à appMNG" id="id-8f6abfba0c854ecca321e913b93d671b"/>
+    <element xsi:type="archimate:Product" name="4MNU" id="id-d6971879d3db400ba7ea10296ffea930"/>
   </folder>
   <folder name="Application" id="id-314e623e3c7a475fb0876ab8fbeaf463" type="application">
     <element xsi:type="archimate:ApplicationComponent" name="appMNG" id="id-b7080ff247e546848bf7d46ece698be6"/>
@@ -100,10 +101,11 @@
     <element xsi:type="archimate:ServingRelationship" id="id-551127c8750e439593b937e5a578db6b" source="id-e0c9bac62a174d64b34a5e467f6883f0" target="id-bbe0b7b1325a455893af75275c48fe1f"/>
     <element xsi:type="archimate:ServingRelationship" id="id-3ce92baa4e1c4492a837da574306f39f" source="id-742210ef833545bbb12b9eddcef1f46a" target="id-94dd0e9436f041e380a02c2056def2f1"/>
     <element xsi:type="archimate:ServingRelationship" id="id-ab4e22c9710a4540af91e5c772ebbdca" source="id-dedebae36245474585fca2be61d4835c" target="id-ec78ee84bf634266904aea7118b520c6"/>
+    <element xsi:type="archimate:AssociationRelationship" id="id-64d3b99b4eea4271acec050e396ab431" source="id-d6971879d3db400ba7ea10296ffea930" target="id-9baf5d63b1624f029848142019378a86"/>
   </folder>
   <folder name="Views" id="id-49d50edc7a364c98a72fdecbd5da757b" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-da323915e0194da189fef328180bcc44">
-      <child xsi:type="archimate:DiagramObject" id="id-6fb34afa1fa74e6ab319e3512be49bb3" archimateElement="id-9baf5d63b1624f029848142019378a86">
+      <child xsi:type="archimate:DiagramObject" id="id-6fb34afa1fa74e6ab319e3512be49bb3" targetConnections="id-2cd481198fbe4f57a813cf5fb9e588ed" archimateElement="id-9baf5d63b1624f029848142019378a86">
         <bounds x="36" y="36" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-4bdcdeb6a7364a818682884ad02eeb30" source="id-6fb34afa1fa74e6ab319e3512be49bb3" target="id-2129ee66dd604546b52c69265412c5de" archimateRelationship="id-00b936bcb94f4fffb86db1e94432155f"/>
       </child>
@@ -357,10 +359,9 @@ that can create, use, store, move, or transform
 materials.&quot;</content>
       </child>
       <child xsi:type="archimate:Note" id="id-a117fbdbfa85495b9cd5cb7a3881d2f9" textAlignment="1" fillColor="#f6d32d">
-        <bounds x="385" y="46" width="185" height="44"/>
+        <bounds x="420" y="36" width="185" height="61"/>
         <content>Queremos representar o produto 4MNU em si?
-É fodido ligar o produto ao resto das coisas...
-Estaria mais ligado à appMNG se o representarmos</content>
+Fica só associado à empresa?</content>
       </child>
       <child xsi:type="archimate:Note" id="id-a94c6c6e802e42f1b8573d407ce0a3ac" textAlignment="1" fillColor="#f6d32d">
         <bounds x="60" y="270" width="185" height="32"/>
@@ -389,6 +390,10 @@ Não será importante representar esta funcionalidade?</content>
         <bounds x="1380" y="864" width="185" height="204"/>
         <content>Na mesma linha da nota anterior, o caítulo dos Eventos todo são funcioanlidades da appMNG. Achas que devemos representar essas funcioanlidades?
 Sendo que, para dois terços do capitulo de Eventos, teríamos de fazer uma representação qualquer do serviço TWIN para que fizesse sentido</content>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-c84c8548041a4b19b08e7092bc18a96e" archimateElement="id-d6971879d3db400ba7ea10296ffea930">
+        <bounds x="264" y="36" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-2cd481198fbe4f57a813cf5fb9e588ed" source="id-c84c8548041a4b19b08e7092bc18a96e" target="id-6fb34afa1fa74e6ab319e3512be49bb3" archimateRelationship="id-64d3b99b4eea4271acec050e396ab431"/>
       </child>
     </element>
   </folder>
