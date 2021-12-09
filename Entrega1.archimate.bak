@@ -230,7 +230,7 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-b543f6c057474122b7a2640ed1f4de25" source="id-719c3bcb89c14c73b455ca99cdac11b7" target="id-0a454d4c2d234816879075198cbd6f43" archimateRelationship="id-1086337d42bc4920a802a1ea571a04dc"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-0a454d4c2d234816879075198cbd6f43" targetConnections="id-b543f6c057474122b7a2640ed1f4de25" archimateElement="id-cd1cf945fc8546889cea9f3cc4a2f470">
-        <bounds x="790" y="744" width="120" height="55"/>
+        <bounds x="780" y="744" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-f15654d001bf4d96b9328fc14ae50ec1" source="id-0a454d4c2d234816879075198cbd6f43" target="id-44033a2a5179430a8d390679d84b19b6" archimateRelationship="id-4f18ddc439ff4402bd78ea2a0ad52a2d">
           <bendpoint startY="-51" endX="-110" endY="45"/>
           <bendpoint startX="108" startY="-51" endX="10" endY="45"/>
