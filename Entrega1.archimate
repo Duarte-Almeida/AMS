@@ -323,8 +323,8 @@
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-0a3c3c54695c4f6f820c4590830b6dfe" targetConnections="id-ef9e75471714481fa63d7b332e84719a id-ffd4fb217c674b2f9500efc2740a0a44" archimateElement="id-e8ce5eacec854d77a5129a0512f515e0">
         <bounds x="353" y="795" width="94" height="36"/>
-        <sourceConnection id="id-3c221bd7c46d4b50bafbf37583ca0c4a" source="id-0a3c3c54695c4f6f820c4590830b6dfe" target="id-df57a0735a8b41caacdabe03e6cf1e08">
-          <bendpoint startX="-40" startY="51" endX="26" endY="-68"/>
+        <sourceConnection id="id-49ff866921904707b0e5130e0dea2831" source="id-0a3c3c54695c4f6f820c4590830b6dfe" target="id-df57a0735a8b41caacdabe03e6cf1e08">
+          <bendpoint startX="-40" startY="51" endX="26" endY="-96"/>
         </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-892c8ad8ee6a4aa8971fc4dc12090eec" targetConnections="id-3569124e33e94db59151e96644eadb53" archimateElement="id-ec1c618dbbe74b19b5e6c98aae90ffa1">
@@ -343,10 +343,10 @@
           <bendpoint startX="-4" startY="-188" endX="156" endY="-5"/>
         </sourceConnection>
       </child>
-      <child xsi:type="archimate:Note" id="id-df57a0735a8b41caacdabe03e6cf1e08" targetConnections="id-3c221bd7c46d4b50bafbf37583ca0c4a" textAlignment="1">
-        <bounds x="245" y="899" width="179" height="74"/>
+      <child xsi:type="archimate:Note" id="id-df57a0735a8b41caacdabe03e6cf1e08" targetConnections="id-49ff866921904707b0e5130e0dea2831" textAlignment="1">
+        <bounds x="245" y="899" width="179" height="122"/>
         <sourceConnection id="id-a7bd8aff697c4780ab5fe9e6a22b6ffa" source="id-df57a0735a8b41caacdabe03e6cf1e08" target="id-460f69334bcf465da2b7b09a1e8613ac"/>
-        <content>Considerou-se a MySQL DB como uma componente software que gera as bases de dados</content>
+        <content>Considerou-se a MySQL DB como uma componente software que gera as bases de dados. Assumiu-se também que todos os dados da appMNG residem na respectiva base de dados.</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-460f69334bcf465da2b7b09a1e8613ac" targetConnections="id-013cae3ff69f45088513825a43baf891 id-a7bd8aff697c4780ab5fe9e6a22b6ffa" archimateElement="id-27ff55bc38ac44e0a6fa56b06180de17">
         <bounds x="377" y="864" width="120" height="25"/>

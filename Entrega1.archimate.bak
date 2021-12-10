@@ -344,9 +344,9 @@
         </sourceConnection>
       </child>
       <child xsi:type="archimate:Note" id="id-df57a0735a8b41caacdabe03e6cf1e08" targetConnections="id-3c221bd7c46d4b50bafbf37583ca0c4a" textAlignment="1">
-        <bounds x="245" y="899" width="179" height="74"/>
+        <bounds x="245" y="899" width="179" height="122"/>
         <sourceConnection id="id-a7bd8aff697c4780ab5fe9e6a22b6ffa" source="id-df57a0735a8b41caacdabe03e6cf1e08" target="id-460f69334bcf465da2b7b09a1e8613ac"/>
-        <content>Considerou-se a MySQL DB como uma componente software que gera as bases de dados</content>
+        <content>Considerou-se a MySQL DB como uma componente software que gera as bases de dados. Assumiu-se também que todos os dados da appMNG residem na respectiva base de dados.</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-460f69334bcf465da2b7b09a1e8613ac" targetConnections="id-013cae3ff69f45088513825a43baf891 id-a7bd8aff697c4780ab5fe9e6a22b6ffa" archimateElement="id-27ff55bc38ac44e0a6fa56b06180de17">
         <bounds x="377" y="864" width="120" height="25"/>
@@ -387,7 +387,7 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-87c4258308a9496c99ebf629702555c7" source="id-3db447a508bf4422be94aadcdc58f56d" target="id-a284ab27681a40a3a568ea27af6b9c18" archimateRelationship="id-a6105091abc6431abfbd9db2a341bcec"/>
       </child>
       <child xsi:type="archimate:Note" id="id-f14a2a0a8d03490d8521e1de7843956b" textAlignment="1" fillColor="#ed333b">
-        <bounds x="744" y="312" width="185" height="80"/>
+        <bounds x="1117" y="288" width="185" height="80"/>
         <content>Ligação entre eINT e uiTEC é assim? &quot;sendo isso na uiTEC
 feito em equipas de intervenção (eINT).&quot; é a única coisa que diz. Não sei se é composição e se não devia ter também &quot;1..*&quot;</content>
       </child>
