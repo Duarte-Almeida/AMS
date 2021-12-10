@@ -185,15 +185,13 @@
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-d4c613b8ae354fd7aae67f6e2b71e14c" archimateElement="id-6ed6806d1e18493c993142de5e61b2c8">
         <bounds x="718" y="192" width="88" height="37"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-47075cb4bf8645189caed4f0f6bec129" source="id-d4c613b8ae354fd7aae67f6e2b71e14c" target="id-5e52df17035a4e08ad503264445332d2" archimateRelationship="id-22513740c2f543928d1a91c3385f707d">
-          <bendpoint startX="-8" startY="42" endX="-8" endY="-30"/>
-        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="id-47075cb4bf8645189caed4f0f6bec129" source="id-d4c613b8ae354fd7aae67f6e2b71e14c" target="id-5e52df17035a4e08ad503264445332d2" archimateRelationship="id-22513740c2f543928d1a91c3385f707d"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-2b403d6b90e14ef0a0e5af2eabfeb314" source="id-d4c613b8ae354fd7aae67f6e2b71e14c" target="id-da2f529b3f9a4e94a6cf8cf35ad4491f" archimateRelationship="id-d696cd0ed03b49caa3c286767320afac">
-          <bendpoint startX="5" startY="-78" endX="228" endY="6"/>
+          <bendpoint startX="6" startY="-78" endX="229" endY="6"/>
         </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-5e52df17035a4e08ad503264445332d2" targetConnections="id-47075cb4bf8645189caed4f0f6bec129 id-e9c0595c3faf4cad9e87f28fad51ab74 id-43db6a57172642d081929ffc8ade0e6e" archimateElement="id-b86fe48fd0124f20bf9ff9b80203a34e">
-        <bounds x="718" y="246" width="88" height="37"/>
+        <bounds x="718" y="264" width="88" height="37"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-69316963b2f24cd1807d34ef62a6d110" archimateElement="id-79a897ba32744fbdb77275acaf79b81b">
         <bounds x="191" y="324" width="120" height="55"/>
@@ -221,13 +219,13 @@
       <child xsi:type="archimate:DiagramObject" id="id-a7b11d50e4ad46d88def8563fe9715fa" targetConnections="id-998ab29aca1e4adaa8808ff1c96a1e7e" archimateElement="id-ec78ee84bf634266904aea7118b520c6">
         <bounds x="865" y="344" width="15" height="15"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-e9c0595c3faf4cad9e87f28fad51ab74" source="id-a7b11d50e4ad46d88def8563fe9715fa" target="id-5e52df17035a4e08ad503264445332d2" archimateRelationship="id-ff4ea2c5aec54212873335a6eabf2e18">
-          <bendpoint startX="-9" startY="-39" endX="101" endY="48"/>
+          <bendpoint startX="-8" startY="-27" endX="102" endY="42"/>
           <bendpoint startX="-104" startY="-38" endX="6" endY="48"/>
         </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="id-e7bbe87a37f54aeba7f0e79f92e73372" source="id-a7b11d50e4ad46d88def8563fe9715fa" target="id-ee9af2a43b9c4b06ade02dea53fd29c9" archimateRelationship="id-e6daf0728d2f419591a9d9276141959a"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-296415b689ba489e819bb866bad7df25" source="id-a7b11d50e4ad46d88def8563fe9715fa" target="id-cb732a4cfe07468c959052fa373eec37" archimateRelationship="id-cbf8bd0dfc854eb2a7316c57f08d5677">
-          <bendpoint startX="15" startY="-39" endX="-94" endY="102"/>
-          <bendpoint startX="112" startY="-38" endX="3" endY="103"/>
+          <bendpoint startX="4" startY="-27" endX="-105" endY="114"/>
+          <bendpoint startX="112" startY="-27" endX="3" endY="114"/>
         </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-26613a6986da417dbff60e67eab7aab5" targetConnections="id-27943c1faa2f4b82b2fa9c0aa66244e3 id-8e32b5bc63b9452ead317561d72d61af" archimateElement="id-16fa310af01f430492ab799f25e350da">
@@ -386,6 +384,15 @@
       <child xsi:type="archimate:DiagramObject" id="id-3db447a508bf4422be94aadcdc58f56d" archimateElement="id-b64987b56d184465a3b083de0749bab3">
         <bounds x="661" y="906" width="120" height="38"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-87c4258308a9496c99ebf629702555c7" source="id-3db447a508bf4422be94aadcdc58f56d" target="id-a284ab27681a40a3a568ea27af6b9c18" archimateRelationship="id-a6105091abc6431abfbd9db2a341bcec"/>
+      </child>
+      <child xsi:type="archimate:Note" id="id-f14a2a0a8d03490d8521e1de7843956b" textAlignment="1" fillColor="#ed333b">
+        <bounds x="744" y="312" width="185" height="80"/>
+        <content>Ligação entre eINT e uiTEC é assim? &quot;sendo isso na uiTEC
+feito em equipas de intervenção (eINT).&quot; é a única coisa que diz. Não sei se é composição e se não devia ter também &quot;1..*&quot;</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-57aa05ce231b436895911127b0248dd4" textAlignment="1" fillColor="#ed333b">
+        <bounds x="1117" y="554" width="185" height="80"/>
+        <content>Além da nota que tenho, acho que o resto das composições e agregações está bem. </content>
       </child>
     </element>
   </folder>
