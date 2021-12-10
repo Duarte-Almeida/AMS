@@ -240,7 +240,7 @@
         </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="id-e7bbe87a37f54aeba7f0e79f92e73372" source="id-a7b11d50e4ad46d88def8563fe9715fa" target="id-ee9af2a43b9c4b06ade02dea53fd29c9" archimateRelationship="id-e6daf0728d2f419591a9d9276141959a"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-296415b689ba489e819bb866bad7df25" source="id-a7b11d50e4ad46d88def8563fe9715fa" target="id-cb732a4cfe07468c959052fa373eec37" archimateRelationship="id-cbf8bd0dfc854eb2a7316c57f08d5677">
-          <bendpoint startX="-126" startY="-1" endX="7" endY="186"/>
+          <bendpoint startX="-101" endX="32" endY="187"/>
         </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-26613a6986da417dbff60e67eab7aab5" targetConnections="id-797b8b08775141049860f615567ebe5e id-b7037818ba0a4fcf826d4749630eebeb" archimateElement="id-16fa310af01f430492ab799f25e350da">
@@ -267,8 +267,8 @@
       <child xsi:type="archimate:DiagramObject" id="id-0a454d4c2d234816879075198cbd6f43" targetConnections="id-b543f6c057474122b7a2640ed1f4de25" archimateElement="id-cd1cf945fc8546889cea9f3cc4a2f470">
         <bounds x="791" y="742" width="120" height="36"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-8ac210305273464487ccf123ab933ebd" source="id-0a454d4c2d234816879075198cbd6f43" target="id-1a9c35a9e68d4cfbac5aae1be19ef35c" archimateRelationship="id-efc0a79717714f6a8cac689d128fa7df">
-          <bendpoint startY="-52" endX="108" endY="69"/>
-          <bendpoint startX="-120" startY="-30" endX="-12" endY="57"/>
+          <bendpoint startX="-11" startY="-52" endX="108" endY="60"/>
+          <bendpoint startX="-119" startY="-52" endY="60"/>
         </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="id-d95d02385e6c41f19597b29dcb51c4d8" source="id-0a454d4c2d234816879075198cbd6f43" target="id-6c16e27d4f7449a585f4cd91d6ed44d8" archimateRelationship="id-97ce9bae84ac4754a32a74799a216998">
           <bendpoint startY="-52" endX="240" endY="69"/>
@@ -299,7 +299,7 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-1b787e26f94a498b9dd0182d55f6d443" source="id-ba6e765d7f5d4ddbbc3ca653163f0dcd" target="id-901eeabfa1fa4f3880a54d1c190d504c" archimateRelationship="id-e431a18074ee4840a38e3f0508e7bdd7"/>
       </child>
       <child xsi:type="archimate:Note" id="id-e7cd4ecb31214c22a268b12d6f951a0b" textAlignment="1" fillColor="#ff3cfa">
-        <bounds x="876" y="81" width="98" height="31"/>
+        <bounds x="872" y="81" width="98" height="40"/>
         <content>Check nas composições vs agregações no final</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-c84c8548041a4b19b08e7092bc18a96e" archimateElement="id-d6971879d3db400ba7ea10296ffea930">
@@ -315,7 +315,7 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-d2b87e8b41054a9e8a7d352ff25b5ac7" source="id-97abe069ad194df49aa0b866737a3e1e" target="id-5e52df17035a4e08ad503264445332d2" archimateRelationship="id-ed8a1b60c09141f5812fa6c0b6f5e5bc">
           <bendpoint startY="-51" endX="76" endY="114"/>
           <bendpoint startY="-75" endX="76" endY="90"/>
-          <bendpoint startX="-48" startY="-75" endX="28" endY="90"/>
+          <bendpoint startX="-60" startY="-75" endX="16" endY="90"/>
         </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="id-a082658ee4d24426af9299012e0d16fe" source="id-97abe069ad194df49aa0b866737a3e1e" target="id-ee9af2a43b9c4b06ade02dea53fd29c9" archimateRelationship="id-808521ccfb8e4f339b801cee433f6602">
           <bendpoint startY="-75" endX="184" endY="162"/>
@@ -323,7 +323,7 @@
         </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="id-7a8b737c83d6482f85aae740781e005c" source="id-97abe069ad194df49aa0b866737a3e1e" target="id-cb732a4cfe07468c959052fa373eec37" archimateRelationship="id-3062c20567e349f184e9ae27c5fa7243">
           <bendpoint startY="-75" endX="295" endY="162"/>
-          <bendpoint startX="-300" startY="-75" endX="-5" endY="162"/>
+          <bendpoint startX="-288" startY="-74" endX="8" endY="163"/>
         </sourceConnection>
         <sourceConnection xsi:type="archimate:Connection" id="id-b7037818ba0a4fcf826d4749630eebeb" source="id-97abe069ad194df49aa0b866737a3e1e" target="id-26613a6986da417dbff60e67eab7aab5" archimateRelationship="id-71e59f524650441bb26c8e561ec567ab">
           <bendpoint startY="-75" endX="1068" endY="57"/>
@@ -340,7 +340,7 @@
         <bounds x="376" y="887" width="95" height="22"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-901eeabfa1fa4f3880a54d1c190d504c" targetConnections="id-1b787e26f94a498b9dd0182d55f6d443" archimateElement="id-f6835fab4c9143e8b155f16d7cf5396f">
-        <bounds x="24" y="887" width="120" height="21"/>
+        <bounds x="24" y="887" width="120" height="22"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-24ba8d5856c6478cafbc25a31604ed83" source="id-901eeabfa1fa4f3880a54d1c190d504c" target="id-eafea8e95bdb4d10bafa9fd981c5337b" archimateRelationship="id-3394479e25784123b942c4069845006d"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-eafea8e95bdb4d10bafa9fd981c5337b" targetConnections="id-24ba8d5856c6478cafbc25a31604ed83" archimateElement="id-e7aa121aca914a7195d3894869a8d6f9">
@@ -369,7 +369,7 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-49dde8000c4e4678a06a6be546ba4f3f" source="id-850ee16e6ba84cff8af91c660ba9e843" target="id-28dd07c12c48417aaa0b9d95b17f25a8" archimateRelationship="id-4518ad797b0149ae8cc1e42234eec85f"/>
       </child>
       <child xsi:type="archimate:Note" id="id-8d361f5f997043de8723a22a59eca560" textAlignment="1" fillColor="#ff59ed">
-        <bounds x="228" y="908" width="119" height="28"/>
+        <bounds x="293" y="849" width="84" height="29"/>
         <content>appQUE sendo uma interface é executada neste hardware? Mas o hardware da appMNG já está especificado à direita!</content>
       </child>
       <child xsi:type="archimate:Note" id="id-df57a0735a8b41caacdabe03e6cf1e08" textAlignment="1">
@@ -388,42 +388,30 @@
         </sourceConnection>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-1a9c35a9e68d4cfbac5aae1be19ef35c" targetConnections="id-8ac210305273464487ccf123ab933ebd id-99148af530b0488fba9e0db00f11d37b" archimateElement="id-1c24e995e8494a6e8397aa6b9851e582">
-        <bounds x="672" y="612" width="120" height="55"/>
+        <bounds x="672" y="612" width="120" height="72"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-91fb5eccc7d84f41a744e42e18041254" targetConnections="id-e650dc7f13b64621a20f77ce576ee385 id-16a0789e9cf84532a851c4264d58df17" archimateElement="id-967ef38bfb3a44409759054b89c123d7">
         <bounds x="801" y="605" width="135" height="70"/>
       </child>
       <child xsi:type="archimate:Note" id="id-0cb384ddb4fa416d942b30ae8bf5f839" textAlignment="1" fillColor="#ff58f9">
-        <bounds x="418" y="698" width="75" height="37"/>
+        <bounds x="324" y="683" width="96" height="46"/>
         <content>Tenho dúvidas neste serves. Pu-lo por causa disto: &quot;A appMNG informa todas as máquinas e todos os TWIN sempre que a lista dos pontos de carregamento é alterada.&quot;</content>
-      </child>
-      <child xsi:type="archimate:Note" id="id-d8c58fe5797345b7a56b37ec49ff1dea" textAlignment="1" fillColor="#ff0b00">
-        <bounds x="216" y="741" width="93" height="38"/>
-        <content>Mudei esta interface para esta layer (ver o vídeo de ontem por volta das 19:30), penso que até faz mais sentido assim</content>
-      </child>
-      <child xsi:type="archimate:Note" id="id-c96f9affabd243e8b301376cdac03571" textAlignment="1" fillColor="#ff0b00">
-        <bounds x="1104" y="752" width="101" height="38"/>
-        <content>Tirei a parte do eventos pois não faz sentido representar eventos quando não há necessidade de representar os processos por eles despoletados (no vídeo aos 15:48 a Gertrudes diz que basta representar o processo e os atores envolvidos, que já está)</content>
       </child>
       <child xsi:type="archimate:Note" id="id-5e0e78764aa4450b807c81506f3abd14" textAlignment="1" fillColor="#ff58f9">
         <bounds x="611" y="45" width="75" height="37"/>
         <content>Desenvoler mais isto? por exemplo, ver o que é que o produto faz olhando para o enunciado (e.g., usa a appMNG, garante a &quot;manutenção reativa&quot;, esse tipo de merdas)</content>
       </child>
       <child xsi:type="archimate:Note" id="id-afe9f065829547b48f9c22288581fc9b" textAlignment="1">
-        <bounds x="1092" y="605" width="185" height="70"/>
+        <bounds x="1092" y="605" width="185" height="69"/>
         <content>Considera-se a atualização de informação por atores internos e atores externos como processos diferentes
 </content>
-      </child>
-      <child xsi:type="archimate:Note" id="id-2a67886f0aa0421f8275b0455f4d8d08" textAlignment="1" fillColor="#ea43d1">
-        <bounds x="1115" y="697" width="74" height="38"/>
-        <content>Foi o melhor que consegui fazer tendo em conta a sugestão da Conceição no vídeo aos 45:50 sobre separar estes processos</content>
       </child>
       <child xsi:type="archimate:Note" id="id-079afd8c9dd74fdd82a9d11acc27f78d" textAlignment="1" fillColor="#ff0b00">
         <bounds x="456" y="575" width="101" height="38"/>
         <content>Adicionei este processo &quot;Cada gePRO reserva na appMNG cada intervalo de tempo em que uma arPRO sua irá utilizar uma máquina&quot;</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-0a88c1ab98e341b185d37bb18cad38f0" targetConnections="id-cec3d8b71eb946d882814d807da60051 id-9d1deadf74f54ee3a90e80c606345930" archimateElement="id-83606379c4f54d97835ea92528ae8ada">
-        <bounds x="943" y="605" width="135" height="70"/>
+        <bounds x="943" y="605" width="135" height="80"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-36635950f4954e8d8e7cca46dc70e083" archimateElement="id-bcc80f3849f1491d98e1ac49fdeaf970">
         <bounds x="540" y="960" width="120" height="55"/>
@@ -442,12 +430,39 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-afedc3582c27438e89810b63d3ff44d1" source="id-988c6e5ba65042b4aeabb78c56435a6a" target="id-347062620e25464f82645bd53c1a51cb" archimateRelationship="id-2f038b07de21422f92c47cd2755b4496"/>
       </child>
       <child xsi:type="archimate:Note" id="id-53f187ed1eb6476fba0c8d0b889ac6a5" textAlignment="1" fillColor="#ff59ed">
-        <bounds x="683" y="974" width="119" height="28"/>
+        <bounds x="732" y="903" width="119" height="48"/>
         <content>Sinceramente não sei como representar o último parágrafo sem representar o TWIN. A dica da Céu a partir das 24:55 não é muito clara. Also, não sei se é preciso representar isto tudo ou se basta só o TWIN e o protocolo como a Fernanda diz.</content>
       </child>
-      <child xsi:type="archimate:Note" id="id-b82363ef67a34f8396c3e244e6f72850" textAlignment="1" fillColor="#ff59ed">
-        <bounds x="508" y="867" width="119" height="28"/>
-        <content>Considerei que a há um serves que parte da appMNG e do TWIN (</content>
+      <child xsi:type="archimate:Note" id="id-499dbe7510974d0a9975d3816b1dc503" textAlignment="1" fillColor="#b5835a">
+        <bounds x="1380" y="648" width="185" height="157"/>
+        <content>Temos 7 processos, a stora disse que o máximo seria meia dúzia. A Amália fala disso logo aos 02:50
+Pelo menos um temos de mandar com os porcos.
+O de Backup da appMNG será um processo? É algo que a máquina realiza sozinha periodicamente, não ha intervenientes nem nada. Pensa na próxima entrega, vais ter que especificar os processos ao pormenor, logo os processos que identificarmos aqui terão de ser processos de largo espetro que poderão ser subdivididos em várias coisas na entrega seguinte. É de certeza assim que eles organizaram isto. Por exemplo, o de manutenção vês logo que vai ter imensas nuances para representar.
+P.S: o que disse para o Backup foi um exemplo, se calhar devemos tirar um daqueles 4 de registo e atualização</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-eb0014a197e64b579ea49fc0b78c7d23" textAlignment="1" fillColor="#b5835a">
+        <bounds x="732" y="950" width="132" height="55"/>
+        <content>Ouvindo o que a Arlinda disse, pareceu-me bastante viável simplesmente representar o prtTWIN entre a appMNG e as máquinas (porque o TWIN faz parte da máquina). Eu sei que há um parágrafo antes que fala sobre a comunicação entre a máquina e a app MNG, mas a stora disse mesmo &quot;não, porque eles fazem parte da máquina. Voces podem repesentar neste sentido: que a comunicação é feita por um protocolo.&quot;
+Ou seja, para esta confusão toda para os TWIN, diria que basta representar o prtTWIN e meter uma nota a dizer &quot;Considera-se o TWIN como parte da máquina e como tal o prtTWIN liga a appMNG à máquina (mas mais especificamente o servio TWIN da mesma)&quot;
+Mais uma cena, serão necessários as coisas de SFT e SFTP? Se achares que sim deixa, é só uma questão inocente</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-90f632cea24b4b9495da6deb7d6acece" textAlignment="1" fillColor="#b5835a">
+        <bounds x="641" y="528" width="182" height="64"/>
+        <content>Juntar o registo e a atualização feitos pela ugTEC num só processo? Aceitável?
+Claramente há 2 processos de atualização distintos, ela foi bastante taxativa em relação a isso. Mas isto pode ser uma forma de diminuir o número de processos</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-3edc2c29617944b8809fb4a27189856d" textAlignment="1" fillColor="#b5835a">
+        <bounds x="264" y="564" width="185" height="49"/>
+        <content>Ainda na linha de diminuir processos, podemos só remover este. Como o backup, é algo atómico, só reserve e pronto. Não há flow de ações associado. Aliás, até podes considerar um processo, mas um sub-processo do processo de manutenção (até está no capítulo da manutenção e tudo)</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-92f02926691f4f84af6351789b36a60b" textAlignment="1" fillColor="#b5835a">
+        <bounds x="272" y="879" width="89" height="38"/>
+        <content>Aqui já estás mais à vontade com a terminologia da technology layer, vou deixar ao teu critério. O que te faz sentir que é a appQUE quando lês &quot;A comunicação entre a appMNG e as máquinas é intermediada pela aplicação de 'message queue' appQUE, que executa num hardware de alta disponibilidade.&quot;
+Quanto à parte do hardware da appQUE e da appMNG acho que faz sentido serem diferentes, as apps são coisas distintas.</content>
+      </child>
+      <child xsi:type="archimate:Note" id="id-2aeb13c495aa4107825942cf1b8c07f6" textAlignment="1" fillColor="#b5835a">
+        <bounds x="231" y="683" width="94" height="45"/>
+        <content>Eu diria que basta a seta de composição. A appQUE é exatamente a interface que permite a troca de mensagens entre a appMNG e as máquinas (TWIN incluídos), logo tudo o que fizer parte dessa comunicação diria que já está assegurado pela simples existência dessa appQUE</content>
       </child>
     </element>
   </folder>
