@@ -105,6 +105,7 @@
     <element xsi:type="archimate:AccessRelationship" id="id-f6d278a8258540818edc521c7173541d" source="id-e7aa121aca914a7195d3894869a8d6f9" target="id-e8ce5eacec854d77a5129a0512f515e0"/>
     <element xsi:type="archimate:AccessRelationship" id="id-2ce955da6275446ca3deaaee7ad64513" source="id-e7aa121aca914a7195d3894869a8d6f9" target="id-ec1c618dbbe74b19b5e6c98aae90ffa1"/>
     <element xsi:type="archimate:AssociationRelationship" id="id-ba24ed0afbc7478aacbf6f5af599b70b" source="id-ec1c618dbbe74b19b5e6c98aae90ffa1" target="id-8eb5ec4a62aa4f758a889419308788d8"/>
+<<<<<<< HEAD
     <element xsi:type="archimate:CompositionRelationship" id="id-fb48497f713f4a528ed3192b4e61304d" source="id-b7080ff247e546848bf7d46ece698be6" target="id-bb039f7c9b5341bc879f29550009939f"/>
     <element xsi:type="archimate:ServingRelationship" id="id-8830f8108e5942dc95680b8f956de2c2" source="id-bb039f7c9b5341bc879f29550009939f" target="id-8b503340f7fc40bf95bce5e840029db9"/>
     <element xsi:type="archimate:ServingRelationship" id="id-4518ad797b0149ae8cc1e42234eec85f" source="id-426b0867eea449ddb44e2fd7ac0c756d" target="id-bb039f7c9b5341bc879f29550009939f"/>
@@ -126,6 +127,8 @@
     <element xsi:type="archimate:AccessRelationship" id="id-2f038b07de21422f92c47cd2755b4496" source="id-5343f84356cc4169afc93c1feffb257c" target="id-bd3fd6e3b1d247abb939c2667a507fe4"/>
     <element xsi:type="archimate:ServingRelationship" id="id-f5cab8d94a2e4a02b8c97ef17239ccb3" source="id-bcc80f3849f1491d98e1ac49fdeaf970" target="id-7de7633cddb84585962e704dba97ebce"/>
     <element xsi:type="archimate:ServingRelationship" id="id-37324018675149678667af40feb4b056" source="id-b7080ff247e546848bf7d46ece698be6" target="id-7de7633cddb84585962e704dba97ebce"/>
+=======
+>>>>>>> d074c9a2afce1f351a074d4ad18a4d905b538a05
   </folder>
   <folder name="Views" id="id-49d50edc7a364c98a72fdecbd5da757b" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-da323915e0194da189fef328180bcc44">
@@ -294,6 +297,18 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-013cae3ff69f45088513825a43baf891" source="id-5624fdc645c341a68e06ab590730f103" target="id-460f69334bcf465da2b7b09a1e8613ac" archimateRelationship="id-5d40631a74904367a7bbe659208ab133"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-7c9784539a634b16899135d5ee92d377" source="id-5624fdc645c341a68e06ab590730f103" target="id-0c8e1defa9f64dcd88b8aacfe720cbf4" archimateRelationship="id-fbeca0596bb54a4fba42685fad0bee17"/>
       </child>
+<<<<<<< HEAD
+=======
+      <child xsi:type="archimate:DiagramObject" id="id-18e1c7eb36be485084edba6cc48c48d8" targetConnections="id-5b06c5bbc2ba4fadb2cdc540f59dfa33" archimateElement="id-3dac1c92ee8e413fbd379cc5a321ec8c">
+        <bounds x="520" y="876" width="109" height="43"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-ee71c1e312184787a53c4c8b30012d2c" source="id-18e1c7eb36be485084edba6cc48c48d8" target="id-719c3bcb89c14c73b455ca99cdac11b7" archimateRelationship="id-0faef33e14fe40838419497dc6227531"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-5e86d003ad804ecfa46d8274db7b99e7" targetConnections="id-9908d60d4b894b86bb02e65d20459009" archimateElement="id-044e7babdb5f4f569dd5ba4634b4dbf8">
+        <bounds x="639" y="876" width="106" height="43"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-5883ab5ff8c24a6887b71193fe8c9a01" source="id-5e86d003ad804ecfa46d8274db7b99e7" target="id-719c3bcb89c14c73b455ca99cdac11b7" archimateRelationship="id-4a61f5ba2d13470cb9c16ada02331e04"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-3e253e54b2d84cc5857a1464adaa4106" source="id-5e86d003ad804ecfa46d8274db7b99e7" target="id-0a3c3c54695c4f6f820c4590830b6dfe" archimateRelationship="id-5e13b8f86de04cd7afee6c091017d602"/>
+      </child>
+>>>>>>> d074c9a2afce1f351a074d4ad18a4d905b538a05
       <child xsi:type="archimate:DiagramObject" id="id-ba6e765d7f5d4ddbbc3ca653163f0dcd" targetConnections="id-3bfa4225463345f99f457b5cc786a974" archimateElement="id-8eb5ec4a62aa4f758a889419308788d8">
         <bounds x="24" y="960" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-1b787e26f94a498b9dd0182d55f6d443" source="id-ba6e765d7f5d4ddbbc3ca653163f0dcd" target="id-901eeabfa1fa4f3880a54d1c190d504c" archimateRelationship="id-e431a18074ee4840a38e3f0508e7bdd7"/>
@@ -352,6 +367,7 @@
         <bounds x="995" y="811" width="94" height="36"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-892c8ad8ee6a4aa8971fc4dc12090eec" targetConnections="id-3569124e33e94db59151e96644eadb53" archimateElement="id-ec1c618dbbe74b19b5e6c98aae90ffa1">
+<<<<<<< HEAD
         <bounds x="167" y="786" width="98" height="26"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-3bfa4225463345f99f457b5cc786a974" source="id-892c8ad8ee6a4aa8971fc4dc12090eec" target="id-ba6e765d7f5d4ddbbc3ca653163f0dcd" archimateRelationship="id-ba24ed0afbc7478aacbf6f5af599b70b">
           <bendpoint startX="-1" startY="191" endX="132" endY="-3"/>
@@ -446,8 +462,14 @@
         <content>Sinceramente não sei como representar o último parágrafo sem representar o TWIN. A dica da Céu a partir das 24:55 não é muito clara. Also, não sei se é preciso representar isto tudo ou se basta só o TWIN e o protocolo como a Fernanda diz.</content>
       </child>
       <child xsi:type="archimate:Note" id="id-b82363ef67a34f8396c3e244e6f72850" textAlignment="1" fillColor="#ff59ed">
-        <bounds x="508" y="867" width="49" height="28"/>
-        <content>Considerei que o protocolo é uma interface (visto que guia a estruturação de mensagens, a forma de enviar e tudo mais). Considerei também que a há um serves que parte da appMNG e do TWIN, pois nos eventos fala-se desta comunicação bidirecional. Não sei se estou a dar overthink mano, já passa das 3h00.</content>
+        <bounds x="508" y="867" width="119" height="28"/>
+        <content>Considerei que a há um serves que parte da appMNG e do TWIN (</content>
+=======
+        <bounds x="168" y="780" width="98" height="26"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-3bfa4225463345f99f457b5cc786a974" source="id-892c8ad8ee6a4aa8971fc4dc12090eec" target="id-ba6e765d7f5d4ddbbc3ca653163f0dcd" archimateRelationship="id-ba24ed0afbc7478aacbf6f5af599b70b">
+          <bendpoint startX="-1" startY="191" endX="132" endY="-3"/>
+        </sourceConnection>
+>>>>>>> d074c9a2afce1f351a074d4ad18a4d905b538a05
       </child>
     </element>
   </folder>
