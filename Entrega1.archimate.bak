@@ -282,7 +282,7 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-1b787e26f94a498b9dd0182d55f6d443" source="id-ba6e765d7f5d4ddbbc3ca653163f0dcd" target="id-901eeabfa1fa4f3880a54d1c190d504c" archimateRelationship="id-e431a18074ee4840a38e3f0508e7bdd7"/>
       </child>
       <child xsi:type="archimate:Note" id="id-e7cd4ecb31214c22a268b12d6f951a0b" textAlignment="1" fillColor="#ff3cfa">
-        <bounds x="1433" y="228" width="98" height="40"/>
+        <bounds x="995" y="552" width="98" height="40"/>
         <content>Check nas composições vs agregações no final</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-c84c8548041a4b19b08e7092bc18a96e" archimateElement="id-d6971879d3db400ba7ea10296ffea930">

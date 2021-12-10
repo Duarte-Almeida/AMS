@@ -286,11 +286,9 @@
         <content>Check nas composições vs agregações no final</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-c84c8548041a4b19b08e7092bc18a96e" archimateElement="id-d6971879d3db400ba7ea10296ffea930">
-        <bounds x="383" y="12" width="120" height="55"/>
+        <bounds x="1032" y="12" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-2cd481198fbe4f57a813cf5fb9e588ed" source="id-c84c8548041a4b19b08e7092bc18a96e" target="id-6fb34afa1fa74e6ab319e3512be49bb3" archimateRelationship="id-64d3b99b4eea4271acec050e396ab431"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-f441c9b471e3443784c93322c98c7d33" source="id-c84c8548041a4b19b08e7092bc18a96e" target="id-d46055f0f1054ef2b225bdedf378fa9a" archimateRelationship="id-29a27a83c7184fd89e3950e46ceec1aa">
-          <bendpoint startX="638" startY="-2" endX="-10" endY="-362"/>
-        </sourceConnection>
+        <sourceConnection xsi:type="archimate:Connection" id="id-f441c9b471e3443784c93322c98c7d33" source="id-c84c8548041a4b19b08e7092bc18a96e" target="id-d46055f0f1054ef2b225bdedf378fa9a" archimateRelationship="id-29a27a83c7184fd89e3950e46ceec1aa"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-d46055f0f1054ef2b225bdedf378fa9a" targetConnections="id-051fd6bb8ad94095b82b0d54e9ae97e7 id-f441c9b471e3443784c93322c98c7d33" archimateElement="id-f415686cf7a44b368a8682ff3599fb48">
         <bounds x="1032" y="384" width="120" height="55"/>
