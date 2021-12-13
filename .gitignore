@@ -4,4 +4,8 @@
 *.fls
 *.log
 *.fdb_latexmk
+*.aux
+
+# ignore .DS_Store
+.DS_Store
 
