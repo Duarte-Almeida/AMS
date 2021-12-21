@@ -9,3 +9,5 @@
 # ignore .DS_Store
 .DS_Store
 
+# ignore potential zip files added
+*.zip
