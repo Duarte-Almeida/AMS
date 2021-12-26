@@ -128,7 +128,7 @@
       <bpmn:outgoing>Flow_1hc9k1x</bpmn:outgoing>
       <bpmn:timerEventDefinition id="TimerEventDefinition_03pn05o" />
     </bpmn:boundaryEvent>
-    <bpmn:boundaryEvent id="Event_15tkws6" name="Cancelar intervenção anterior" attachedToRef="Activity_1m1l0ag">
+    <bpmn:boundaryEvent id="Event_15tkws6" name="Cancelar intervenção em curso" attachedToRef="Activity_1m1l0ag">
       <bpmn:outgoing>Flow_0rbd9or</bpmn:outgoing>
       <bpmn:signalEventDefinition id="SignalEventDefinition_0tugc2l" />
     </bpmn:boundaryEvent>
@@ -190,7 +190,7 @@
         <bpmn:targetRef>DataStoreReference_1cnnwok</bpmn:targetRef>
       </bpmn:dataOutputAssociation>
     </bpmn:task>
-    <bpmn:exclusiveGateway id="Gateway_0xbmkl2" name="Intervenção anterior a decorrer?">
+    <bpmn:exclusiveGateway id="Gateway_0xbmkl2" name="Intervenção respectiva já está a decorrer?">
       <bpmn:incoming>Flow_158v1k1</bpmn:incoming>
       <bpmn:outgoing>Flow_18kpdab</bpmn:outgoing>
       <bpmn:outgoing>Flow_1k6zs48</bpmn:outgoing>
@@ -236,7 +236,7 @@
       <bpmn:outgoing>Flow_0fyy7hu</bpmn:outgoing>
       <bpmn:outgoing>Flow_1qf4632</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:intermediateThrowEvent id="Event_1av5b1r" name="Cancelar intervenção anterior">
+    <bpmn:intermediateThrowEvent id="Event_1av5b1r" name="Cancelar intervenção em curso">
       <bpmn:incoming>Flow_18kpdab</bpmn:incoming>
       <bpmn:outgoing>Flow_0f5jrt6</bpmn:outgoing>
       <bpmn:signalEventDefinition id="SignalEventDefinition_0ry270i" />
@@ -653,7 +653,7 @@
       <bpmndi:BPMNShape id="Gateway_0xbmkl2_di" bpmnElement="Gateway_0xbmkl2" isMarkerVisible="true">
         <dc:Bounds x="1035" y="665" width="50" height="50" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="1031" y="622" width="58" height="40" />
+          <dc:Bounds x="1018" y="620" width="86" height="40" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_0lnpfx5_di" bpmnElement="Activity_0lnpfx5">
@@ -698,7 +698,7 @@
       <bpmndi:BPMNShape id="Event_0dodgwg_di" bpmnElement="Event_1av5b1r">
         <dc:Bounds x="1152" y="672" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="1141" y="630" width="57" height="40" />
+          <dc:Bounds x="1132" y="630" width="76" height="40" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_1srwyt0_di" bpmnElement="Gateway_1srwyt0" isMarkerVisible="true">
@@ -746,7 +746,7 @@
       <bpmndi:BPMNShape id="Event_03up4s8_di" bpmnElement="Event_15tkws6">
         <dc:Bounds x="1472" y="842" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="1412" y="840" width="57" height="40" />
+          <dc:Bounds x="1402" y="810" width="76" height="40" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_0upf3zq_di" bpmnElement="Event_1r22w5t">

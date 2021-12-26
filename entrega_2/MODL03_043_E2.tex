@@ -6,7 +6,9 @@
 \usepackage{rotating}
 \usepackage[margin=1in]{geometry}
 
+
 \graphicspath{ {./images} }
+\pagenumbering{gobble}
 
 \title{
     Manutenção Inteligente em Cenário de Indústria 4.0 \\
@@ -70,19 +72,20 @@
     A condição (a) presente na lane (resp. pool) da eINT no diagrama 1 (resp. 2) é verdadeira se e só se a máquina estava a ser usada por arPRO quando o evento
     de início da primeira execução do processo foi gerado ou a máquina tem uso por arPRO previsto para as 24h seguintes. \par
     De referir ainda que todos os conectores de associação têm como destino a appMNG, tendo-se colapsado múltiplos conectores por razões de clareza visual.
+
     \pagebreak
+    \pdfpageattr\expandafter{\the\pdfpageattr/Rotate -90}
 
     \begin{figure}[H]
         \centering
-        \includegraphics[angle=-90,origin=c, scale = 0.11]{one_pool.png}
+        \includegraphics[angle=-90,origin=c, scale = 0.115]{one_pool.png}
     \end{figure}
 
-    \pagebreak
 
-
+    \global\pdfpageattr\expandafter{\the\pdfpageattr/Rotate -90}
     \begin{figure}[H]
         \centering
-        \includegraphics[angle=-90,origin=c, scale = 0.11]{various_pools.png}
+        \includegraphics[angle=-90,origin=c, scale = 0.115]{various_pools.png}
     \end{figure}
 
 \end{document}
