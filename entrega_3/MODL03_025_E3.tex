@@ -1,0 +1,107 @@
+\documentclass{article}
+
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage[margin=1in]{geometry}
+
+
+\graphicspath{ {./images} }
+\pagenumbering{gobble}
+
+\title{
+    Manutenção Inteligente em Cenário de Indústria 4.0 \\
+    \vspace{0.75em}
+    \Large Entrega 3 \\  \vspace{1.25em} 
+    \large
+    \begin{tabular}{rl}
+        \textbf{Turno:}& MODL03 \\ 
+        \rule{0pt}{1.25em} 
+        \textbf{Docente:}& Maria do Rosário Bernardo 
+    \end{tabular}
+}
+\author{}
+\date{}
+
+
+\begin{document}
+    \maketitle
+    \begin{tikzpicture}[overlay, remember picture]
+        \node[xshift=3.5cm,yshift=-2.5cm] at (current page.north west) {\includegraphics[scale = 0.35]{logo_ist.jpeg}};
+    \end{tikzpicture}
+    \vspace{-1.2cm}
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{|l|l|l|l|l}
+        \cline{1-4}
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multicolumn{1}{l|}{}                   &  \\
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multicolumn{1}{l|}{}                   &  \\
+        \multicolumn{1}{|c|}{Nome}               & \multicolumn{1}{c|}{Número} & \multicolumn{1}{c|}{Esforço estimado de trabalho} & \multicolumn{1}{c|}{Tarefas realizadas} &  \\
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multicolumn{1}{l|}{}                   &  \\
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multicolumn{1}{l|}{}                   &  \\ \cline{1-4}
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multirow{5}{7cm}{Extração de informação do UoD e respetiva modelação no EA. }                   &  \\
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multicolumn{1}{l|}{}                   &  \\
+        \multicolumn{1}{|c|}{António Coelho}     & \multicolumn{1}{c|}{95535}  & \multicolumn{1}{c|}{12 horas}                     & \multicolumn{1}{l|}{}                   &  \\
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multicolumn{1}{l|}{}                   &  \\
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multicolumn{1}{l|}{}                   & \\ \cline{1-4}
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multirow{5}{7cm}{Extração de informação do UoD e respetiva modelação no EA. Registo do progresso em \textit{logs} e sintetização da informação recolhida em casos de uso, classes e relações.}                   &   \\
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multicolumn{1}{l|}{}                   &  \\
+        \multicolumn{1}{|c|}{Sebastião Assunção} & \multicolumn{1}{c|}{95536}  & \multicolumn{1}{c|}{12 horas}                     & \multicolumn{1}{l|}{}                   &  \\
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multicolumn{1}{l|}{}                   &  \\
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multicolumn{1}{l|}{}                   &  \\ \cline{1-4}
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multirow{5}{7cm}{Extração de informação do UoD e respetiva modelação no EA. Exposição de dúvidas junto do corpo docente, exercício de papel de liderança no uso da ferramenta EA.}                   &  \\
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multicolumn{1}{l|}{}                   &  \\
+        \multicolumn{1}{|c|}{Duarte Almeida}     & \multicolumn{1}{c|}{95565}  & \multicolumn{1}{c|}{12 horas}                     & \multicolumn{1}{l|}{}                   &  \\
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multicolumn{1}{l|}{}                   &  \\
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multicolumn{1}{l|}{}                   &  \\ \cline{1-4}
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multirow{5}{7cm}{Extração de informação do UoD e respetiva modelação no EA. Recolha e tratamento de informação fornecida pelo corpo docente e estruturação da árvore de projeto no EA.}                   &  \\
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multicolumn{1}{l|}{}                   &  \\
+        \multicolumn{1}{|c|}{Gustavo Aguiar}     & \multicolumn{1}{c|}{95587}  & \multicolumn{1}{c|}{12 horas}                     & \multicolumn{1}{l|}{}                   &  \\
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multicolumn{1}{l|}{}                   &  \\
+        \multicolumn{1}{|l|}{}                   & \multicolumn{1}{l|}{}       & \multicolumn{1}{l|}{}                             & \multicolumn{1}{l|}{}                   & \\ \cline{1-4}
+        \end{tabular}
+        \end{table}
+
+    \vspace{0.5cm}
+
+    \noindent \large \textbf{Comentários aos diagramas}
+
+    \vspace{0.4cm}
+    \normalsize
+
+    Ao nível do modelo de domínio, representaram-se as mensagens com dados de estado das máquinas como não estruturadas pelas unidades a que esses dados remetem. No entanto, abre-se posterior possibilidade comportamental de estruturação ao associar estas mensagens à máquina, que é por sua vez composta pelas suas unidades. \\ \indent
+    A associação do evento de início de manutenção "AvariaInferida" a "DadosEstado" e, indiretamente, a "Máquina" abre também possibilidade comportamental de, assumindo o acesso à data atual por parte da uma máquina, inferir uma avaria (por exemplo, analisando as datas das mensagens recebidas, o intervalo de tempo máximo permitido entre mensagens e as manutenções agendadas/em curso).
+
+    \pagebreak
+    \pdfpageattr\expandafter{\the\pdfpageattr/Rotate -90}
+
+    \begin{figure}[H]
+        \centering
+        \vspace*{-1.05cm}
+        \includegraphics[angle=-90,origin=c,width=\textwidth,height=\textheight,keepaspectratio]{caso_de_uso_311.png}
+    \end{figure}
+
+    \pagebreak
+    \begin{figure}[H]
+        \centering
+        \vspace*{-1cm}
+        \includegraphics[angle=-90,origin=c, scale=0.82]{caso_de_uso_312.png}
+    \end{figure}
+
+    \pagebreak
+    \begin{figure}[H]
+        \centering
+        \vspace*{1.6cm}
+        \includegraphics[angle=-90,origin=c]{caso_de_uso_313.png}
+    \end{figure}
+
+    \pagebreak
+    \begin{figure}[H]
+        \centering
+        \vspace*{1.1cm}
+        \hspace*{-1.75cm}
+        \includegraphics[origin=c, angle=-90, scale=0.85]{modelo_dominio.png}
+    \end{figure}
+
+\end{document}
