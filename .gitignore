@@ -11,3 +11,6 @@
 
 # ignore potential zip files added
 *.zip
+
+# ignore EA generated files
+*.ldb
